@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import Quiz from "./QuizLayout";
 import AppContext from "../Context/app-context";
 
+//This class handles showing the right answers
+//after the quiz is subbmitted by the user
+
 function Answers({ lst }) {
   const { quizListArray, SET_QUIZLIST_ARRAY } = React.useContext(AppContext);
 
@@ -39,7 +42,6 @@ function Answers({ lst }) {
       ) : (
         <div></div>
       )}
-     
     </div>
   );
 }

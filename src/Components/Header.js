@@ -7,6 +7,7 @@ import {
   FaUserGraduate,
 } from "react-icons/fa";
 
+// This class manages the headers (social profiles, and copyrights)
 function Header() {
   return (
     <div>
